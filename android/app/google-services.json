@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025991603052",
+    "project_id": "arduino-brush",
+    "storage_bucket": "arduino-brush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025991603052:android:51377cebd426a97299f949",
+        "android_client_info": {
+          "package_name": "arduinodental.com.arduino_brush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025991603052-0sdta938t72gt3bbpkg3t05nlo5qh005.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjDC0nFED7XrekilN1gvQ3mUyQ8v7SMPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025991603052-0sdta938t72gt3bbpkg3t05nlo5qh005.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
