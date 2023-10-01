@@ -1,3 +1,4 @@
+import 'package:arduino_brush/pages/barGraph/get_data_firebase.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
@@ -11,11 +12,18 @@ class DataItem {
       {required this.x, required this.y1, required this.y2, required this.y3});
 }
 
-class Pagechart extends StatelessWidget {
+class Pagechart extends StatefulWidget {
   const Pagechart({Key? key}) : super(key: key);
 
   @override
+  State<Pagechart> createState() => _PagechartState();
+}
+
+class _PagechartState extends State<Pagechart> {
+  @override
   Widget build(BuildContext context) {
+    Firebaseconsult consulta = Firebaseconsult();
+    consulta.getTime();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Porta-Escova AIOT'),
@@ -84,7 +92,7 @@ class Pagechart extends StatelessWidget {
                 barRods: [
                   BarChartRodData(
                     fromY: 0,
-                    toY: 4,
+                    toY: 6,
                     width: 10,
                     color: Colors.amber,
                     rodStackItems: [
