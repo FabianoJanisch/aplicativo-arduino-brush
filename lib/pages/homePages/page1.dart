@@ -24,6 +24,17 @@ class _PagechartState extends State<Pagechart> {
   Widget build(BuildContext context) {
     Firebaseconsult consulta = Firebaseconsult();
     consulta.getTime();
+
+    List<Map<String, dynamic>> dayYear = [
+      {'user': 'fabiano', 'day': 274},
+      {'user': 'fabiano', 'day': 274},
+      {'user': 'fabiano', 'day': 275},
+      {'user': 'fabiano', 'day': 275},
+      {'user': 'fabiano', 'day': 274},
+      {'user': 'fabiano', 'day': 274},
+    ];
+    //final double numberDay = countDay(dayYear, 274);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Porta-Escova AIOT'),
@@ -92,7 +103,7 @@ class _PagechartState extends State<Pagechart> {
                 barRods: [
                   BarChartRodData(
                     fromY: 0,
-                    toY: 6,
+                    toY: countDay(dayYear, 274),
                     width: 10,
                     color: Colors.amber,
                     rodStackItems: [
@@ -110,7 +121,7 @@ class _PagechartState extends State<Pagechart> {
                 barRods: [
                   BarChartRodData(
                     fromY: 0,
-                    toY: 3,
+                    toY: countDay(dayYear, 275),
                     width: 15,
                     color: Colors.amber,
                     rodStackItems: [

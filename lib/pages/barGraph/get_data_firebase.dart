@@ -26,3 +26,13 @@ Future<void> main() async {
   Firebaseconsult consulta = Firebaseconsult();
   consulta.getTime();
 }
+
+double countDay(List<Map<String, dynamic>> lista, int numero) {
+  double contador = 0;
+  for (var item in lista) {
+    if (item['day'] == numero) {
+      contador++;
+    }
+  }
+  return contador;
+}
