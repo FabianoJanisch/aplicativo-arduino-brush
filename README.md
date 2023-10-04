@@ -32,7 +32,4 @@ Dificuldades Encontradas:
 
 As principais dificuldades incluíram a aprendizagem de novas linguagens de programação e a construção do projeto do zero sem orientação formal.
 
-Conclusão:
-
-O projeto demonstrou a aplicação bem-sucedida da tecnologia AIOT na odontologia, promovendo a prevenção de doenças bucais e incentivando hábitos saudáveis de higiene bucal. A combinação de Arduino, Python, Dart e Flutter resultou em um sistema versátil e intuitivo que pode ter um impacto positivo na saúde bucal e nos hábitos dos usuários.
 
