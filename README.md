@@ -21,6 +21,7 @@ Criação de uma GUI com Tkinter para exibição dos dados.
 Leitura contínua do sensor de distância HC-SR04.
 Armazenamento de registros no banco de dados com base nas leituras do sensor.
 Visualização dos dados por meio de um gráfico de barras no aplicativo Flutter.
+
 Resultados Alcançados:
 
 Monitoramento efetivo da escovação dentária.
@@ -28,8 +29,5 @@ Interface gráfica intuitiva e multiplataforma.
 Armazenamento em nuvem utilizando o Firestore Database do Firebase.
 Apresentação persuasiva dos hábitos de higiene bucal.
 Potencial para transformar hábitos de escovação.
-Dificuldades Encontradas:
-
-As principais dificuldades incluíram a aprendizagem de novas linguagens de programação e a construção do projeto do zero sem orientação formal.
 
 
